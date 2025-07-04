@@ -1,0 +1,7 @@
+<div>    
+{% if messages %}
+{% for mesg in messages %}
+<p {% if mesg.tags %} class="alert-{{mesg.tags}}"{% endif %} >{{mes}}</p>
+{% endfor %}
+{% endif %}
+</div>
