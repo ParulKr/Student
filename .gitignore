@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Static files (collected)
+staticfiles/
+
+# Media (optional user uploads)
+media/
+
+# Logs
+*.log
+
+# SQLite DB (optional)
+*.sqlite3
+
+# Node dependencies (if using npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Include templates (don't ignore them!)
+!templates/
+!*/templates/
